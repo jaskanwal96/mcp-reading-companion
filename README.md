@@ -1,3 +1,5 @@
+This repo has been created by Claude + [Github Official MCP Server](https://mcp.so/server/github/modelcontextprotocol)
+
 # MCP Reading Companion
 
 A powerful Multi-agent Collaborative Protocol (MCP) server designed to enhance your reading experience by leveraging your Kindle highlights and notes.
