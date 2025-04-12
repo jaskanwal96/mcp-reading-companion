@@ -1,0 +1,41 @@
+{
+  "name": "mcp-reading-companion",
+  "version": "1.0.0",
+  "description": "A companion application for tracking and enhancing your reading experience",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-esm src/index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaskanwal96/mcp-reading-companion.git"
+  },
+  "keywords": [
+    "mcp",
+    "reading",
+    "kindle",
+    "highlights",
+    "notes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaskanwal96/mcp-reading-companion/issues"
+  },
+  "homepage": "https://github.com/jaskanwal96/mcp-reading-companion#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
